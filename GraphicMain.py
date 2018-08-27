@@ -37,13 +37,3 @@ if __name__ == '__main__':
             if event.type == pygame.QUIT:
                 ok = False
     pygame.quit()
-
-
-
-
-
-def exec_code(code, input_file, output_file):
-    exec('''import sys\n
-            sys.stdin = input_file\n
-            sys.stdout = output_file\n'''
-            + code)
