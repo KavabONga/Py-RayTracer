@@ -1,2 +1,4 @@
 # Py-RayTracer
-A simple ray-tracer written in python
+A simple **Ray Tracer** written in Python 3\
+Result:
+![img](RayTracing.png)
